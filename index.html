@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Merriweather:wght@700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+</head>
+<header><b>Weather Forecast</b></header>
+<body>
+    
+   
+    <div id="maindiv" class="flex-row align-center justify-center ">
+        <div class="col-3 col-md-9 flex-column align-center">
+            <h1 id="headingsearch" class="text-primary">Search for a City</h1>
+            <form id="search-form" class="form w-100">
+                <input id="search-input" class="form-input w-50" type="text" placeholder="Search!">
+                </form>
+                <button id="search" class="btn btn-info btn-block">Search</button>
+                </div>  
+                </div>
+<section id="main">
+<div id="currentdata" class="card">
+    <div><h3 id="cityName">cityName:</h3><date id="datecurrent"></date><img id="imgcurrent"></div>
+    <h5 id="Temperature">Temperature:</h5>
+    <h5 id="Wind">Wind</h5>
+    <h5 id="Humidity">Humidity</h5>
+    <h5 id="UVindex">UV index</h5>
+</div>
+<h2 id="day"><b>5 Days Forecast</b></h2>
+<section id ="weatherf" class="row justify-content-around">
+  
+
+<div id="div1" class="card">
+    
+        <date id="dateforecast1"></date>
+        <img id="imgforecast1">
+        <h5 id="Tempforecast1">Temperature:</h5>
+        <h5 id="Windforecast1">Wind</h5>
+        <h5 id="Humidityforecast1">Humidity</h5>
+    
+</div>
+<div id="div2" class="card">
+        <date id="dateforecast2"></date>
+        <img id="imgforecast2">
+        <h5 id="Tempforecast2">Temperature:</h5>
+        <h5 id="Windforecast2">Wind</h5>
+        <h5 id="Humidityforecast2">Humidity</h5>
+</div>
+<div id="div3" class="card">
+            <date id="dateforecast3"></date>
+            <img id="imgforecast3">
+            <h5 id="Tempforecast3">Temperature:</h5>
+            <h5 id="Windforecast3">Wind</h5>
+            <h5 id="Humidityforecast3">Humidity</h5>
+</div>
+<div id="div4" class="card">
+            <date id="dateforecast4"></date>
+            <img id="imgforecast4">
+            <h5 id="Tempforecast4">Temperature:</h5>
+            <h5 id="Windforecast4">Wind</h5>
+            <h5 id="Humidityforecast4">Humidity</h5>
+</div>
+<div id="div5" class="card">
+            <date id="dateforecast5"></date>
+            <img id="imgforecast5">
+            <h5 id="Tempforecast5">Temperature:</h5>
+            <h5 id="Windforecast5">Wind</h5>
+            <h5 id="Humidityforecast5">Humidity</h5>
+</div>
+  
+
+</section>
+</section>
+<script src="./Assets/js/script.js"></script>
+                </body>
+                
+                </html>

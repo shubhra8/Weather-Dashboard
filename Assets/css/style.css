@@ -1,0 +1,101 @@
+.flex-row{
+    width:30%;
+    float:left;
+    
+}
+#main{
+    flex-flow: inline;
+}
+#search-form{
+ font-size: 1.5rem;
+}
+header{
+    background-color: #17a2b8;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 40px;
+        font-style: normal;
+        font-size: 40px;
+        text-align: center;
+        text-decoration: underline;
+}
+.w-50 {
+    width: 100% !important;
+}
+form{
+    margin-bottom: 25px;
+}
+#main{
+    display: none;
+}
+#cityName{
+    text-transform: capitalize;
+}
+#weatherf{
+    margin-left: 27%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#headingsearch{
+    font-size: 30px;
+    color: black ! important;
+}
+#day{
+    margin-left: 30%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+#UVindex{
+    width: 20%;
+    height: 10%;
+}
+#div1,#div2,#div3,#div4,#div5{
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 15rem;
+    height: 300px;
+    border-color: black;
+    text-align: center;
+    align-items: center;
+    background-color: #17a2b8;
+    border-width: medium;
+    color: white;
+}
+img{
+    width:25%
+}
+#imgcurrent{
+    width: 5%;
+}
+#datecurrent{
+    font-weight: bold;
+}
+#button1{
+    width: 80%;
+    margin-bottom: 10px;
+    background-color: #17a2b8;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#search{
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: white;
+    
+    
+}
+#search-input{
+    text-transform: capitalize;
+}
+#currentdata{
+    border-color: inherit;
+}
+#dateforecast1,#dateforecast2,#dateforecast3,#dateforecast4,#dateforecast5
+{
+    font-weight: bold;
+}
